@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<!--UATSpace page 
+written by: Timothy A. Ebert, Jr
+timebert@uat.edu
+16May2021-->
+<!-- The Race to Space
+The goal is to be the first to space. The only way to get to space is to play a game of Craps. 
+The only way to win the game is to roll two six side die and get doubles that are even numders. 
+If you roll a seven or eleven then you lose and will not be going to space. 
+But if you roll any other number to can roll again. The goal is to do this in the least amount of roll has you can. 
+You need to get to space to make repairs on a satellite to get communications back up and running.-->
+
+<html>
+
+<head>
+    <!--insert the style and text type-->
+    <link href="Style.css" rel="stylesheet" type="text/css" />
+    <!--setting the link to the javascript source page-->
+    <script src="code.js"></script>
+
+    <title>
+        <!--title should be set to Tim Ebert's UATSpace Page-->
+        Tim Ebert's UATSpace Page
+    </title>
+</head>
+
+<body>
+    <!--insert UATspace logo-->
+    <img src="UATspaceLogo-2.jpg">
+    <!--Setting the head to read UAT Space Program-->
+    <h1>
+        UAT Space Program
+    </h1>
+    <script>
+        //javascript stuff happens between the <script> tags
+        document.write("Test of the document write function");
+    </script>
+    <!--inserting paragraph tags-->
+    <p>Test of the paragraph tags</p><br>
+    <br>
+    <!--inserting Countdown Status paragraph-->
+    <p id="countdownTimer">Countdown Status...</p>
+    <!--inserting start button to start the countdown and stop buttons -->
+    <button onclick="startCountdown();">Start</button>
+    <button>Stop</button>
+    <!--checking the alert function-->
+    <script>
+        //we do not need alert anymore
+        //alert("Test of the Alert function");
+    </script>
+
+    <!--Space for the craps game-->
+    <br>
+    <br>
+    <!--inserting the die1Results-->
+    <div id="die1Results">die1 status...</div><br>
+    <!--inserting the die2Results-->
+    <div id="die2Results">die2 status...</div><br>
+    <!--inserting the sumResults-->
+    <div id="sumResults">sum status...</div><br>
+    <!--inserting the crapsResults-->
+    <div id="crapsResults">Craps game status...</div><br>
+    <!--inserting the button to playCraps-->
+    <button onclick="playCraps();">Play Craps</button>
+    <!--inserting a askgif or rolling dice-->
+    <iframe src="https://giphy.com/embed/5T0klia2LqiIPM87lt" width="180" height="180" frameBorder="0"
+        class="giphy-embed" allowFullScreen></iframe>
+    <p><a href="https://giphy.com/gifs/game-love-pink-5T0klia2LqiIPM87lt">via GIPHY</a></p>
+
+</body>
+
+</html>
